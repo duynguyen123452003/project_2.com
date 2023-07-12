@@ -1,0 +1,156 @@
+.heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.list_input{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.btn_add,
+.input_text{
+    width: 100%;
+    border: 1px solid pink;
+    border-radius: 2px;
+    padding: 10px 10px;
+    outline-color: pink;
+    text-transform: uppercase;
+}
+
+.error{
+    color: red;
+}
+
+.input_text{
+    box-sizing: border-box;
+}
+.btn_add{
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_add:hover{
+    background-color: rgb(252, 177, 189);
+}
+
+.list_player{
+    padding: 0;
+    list-style: none;
+}
+
+.item_player{
+    background-color: pink;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.name_date{
+    width: 200px;
+}
+
+.name{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 2px 0;
+    line-height: 1.6rem;
+    height: 1.6rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.date{
+    padding: 2px 0;
+    font-size: 1.3rem;
+    color: #929292;
+    height: 1.3rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+} 
+
+.country_box{
+    width: 200px;
+}
+
+.country{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    height: 1.8rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (max-width: 740px) {
+    .list_input{
+        width: 100%;
+    }
+    .btn_add,
+    .input_text{
+        margin-top: 10px;
+    }
+
+    .name,
+    .country,
+    .score{
+        font-size: 1.3rem;
+    }
+    .name_date{
+        width: 130px;
+    }
+    .country_box{
+        width: 100px;
+    }
+
+}
+
+.score{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.btn{
+    display: flex;
+}
+
+.btn_delete,
+.btn_add-score,
+.btn_delete-score{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn_delete{
+    color: red;
+}
+
+.btn_delete:hover,
+.btn_add-score:hover,
+.btn_delete-score:hover{
+    background-color: rgb(250, 223, 227);
+}
+
